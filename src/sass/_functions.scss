@@ -1,0 +1,32 @@
+@mixin bg-pattern($name) {
+  background: url('../images/patterns/#{$name}.png') transparent 1px 1px;
+}
+
+@mixin svg-bg($name) {
+  background: url('../images/svg/#{$name}.svg') center center no-repeat;
+}
+
+@mixin svg-bg-center($name) {
+  background: url('../images/svg/#{$name}.svg') center center no-repeat;
+}
+
+@mixin svg-bg-link($name) {
+  background: url('../images/svg/#{$name}.svg') top center no-repeat;
+  &:hover {
+    background-position: bottom center;
+  }
+}
+
+@function lower-bound($range) {
+  @if length($range) <= 0 {
+    @return 0;
+  }
+  @return nth($range, 1);
+}
+
+@function upper-bound($range) {
+  @if length($range) < 2 {
+    @return 999999999999;
+  }
+  @return nth($range, 2);
+}
