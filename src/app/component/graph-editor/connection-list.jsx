@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import ConnectionView from './connection-view.jsx';
 import cleanValue from '../../utility/clean-value';
+import { Scrollbars } from 'react-custom-scrollbars';
 
 class ConnectionList extends Component {
 
@@ -38,9 +39,11 @@ class ConnectionList extends Component {
     // Todo: add scrollbars
     render() {
         return (
-            <div className={'connection-view'}>
-                {this.displayConnections()}
-            </div>
+            <Scrollbars style={{height: 640}} className={'panel'}>
+                <div className={'connection-view'}>
+                    {this.displayConnections()}
+                </div>
+            </Scrollbars>
         );
     }
 }
