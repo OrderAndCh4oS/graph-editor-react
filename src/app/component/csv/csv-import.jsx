@@ -7,7 +7,8 @@ const handleCSVImport = (complete, transform) => (event) => {
         complete: (data) => {
             return complete(data.data);
         },
-        transform
+        transform,
+        skipEmptyLines: true
     });
 };
 
