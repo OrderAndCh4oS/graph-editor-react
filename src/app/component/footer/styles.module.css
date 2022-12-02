@@ -1,0 +1,22 @@
+.footer {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.socialLinks {
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.socialLinks a {
+    text-transform: none;
+}
+
+.inlineSvg {
+    position: relative;
+    top: 4px;
+}
