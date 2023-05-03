@@ -40,7 +40,7 @@ Equation Nodes perform mathematical operations on input nodes, displaying those 
 
 - **Label**: Brief title displayed within node in diagram form.
 
-- **Title**: Elaborated moniker given alongside calculation outcomes; more extensive explanation thereof provided hereinabove under 'Value Nodes' heading;
+- **Title**: Longer form name shown with calculation results.
 
 - **Colour**: The colour of the node in the graph.
 
