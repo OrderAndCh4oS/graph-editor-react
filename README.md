@@ -30,7 +30,7 @@ Value Nodes store numeric values, which can be used in Equation Node formulas. T
 
 - **Value**: Actual numeric value stored by Value Node.
 
-- **Min**, **Max**, and *step* fields allow you to define constraints or increment/decrement steps associated with an input field.
+- **Min**, **Max**, and **step** fields allow you to define constraints or increment/decrement steps associated with an input field.
 
 ### Equation Nodes
 
