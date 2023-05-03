@@ -22,11 +22,11 @@ Value Nodes store numeric values, which can be used in Equation Node formulas. T
 
 - **Colour**: The colour of the node in the graph.
 
-- **Conversion**: Input values can be multiplied by this amount (e.g., a value of 10 with a conversion factor of 0.1 will result in a final value of 1).
+- **Conversion**: Input values can be multiplied by this amount (_eg_, a value of 10 with a conversion factor of 0.1 will result in a final value of 1).
 
-- **Prefix**: Displayed before the value (e.g., "£" might be used for currency).
+- **Prefix**: Displayed before the value (_eg_, "£" might be used for currency).
 
-- **Suffix**: Displayed after the value (e.g., "b" might represent billions).
+- **Suffix**: Displayed after the value (_eg_, "b" might represent billions).
 
 - **Value**: Actual numeric value stored by Value Node.
 
